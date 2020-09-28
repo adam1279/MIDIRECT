@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "MIDIRECT",
+    "version": "2.0",
+    "description": "Assign browser functions to MIDI signals.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "<all_urls>",
+        "history",
+        "bookmarks"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["content.js"]
+    }],
+    "browser_action": {
+        "default_icon": "Logos/Logo.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "Logos/Logo16.png",
+        "32": "Logos/Logo32.png",
+        "48": "Logos/Logo48.png",
+        "128": "Logos/Logo128.png"
+    }
+}

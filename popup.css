@@ -1,0 +1,22 @@
+body {
+    width: 200px;
+}
+.header {
+    text-align: center;
+}
+.browserActions, .midiInput {
+    width: 100%;
+}
+.newButtonBindDiv, .newDialBindDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+.bindDiv {
+    border: solid black 1px;
+    border-radius: 3px;
+    padding: 5px;
+}
