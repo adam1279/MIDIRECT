@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "MIDIRECT",
     "version": "2.0",
-    "description": "Assign browser functions to MIDI signals.",
+    "description": "Assign incoming MIDI signals to browser functions.",
     "permissions": [
         "storage",
         "tabs",

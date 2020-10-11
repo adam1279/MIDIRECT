@@ -8,15 +8,35 @@ body {
     width: 100%;
 }
 .newButtonBindDiv, .newDialBindDiv {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     background-color: white;
 }
 .bindDiv {
     border: solid black 1px;
     border-radius: 3px;
     padding: 5px;
+    margin: 5px;
+}
+.bindDivTitle {
+    font-weight: bold;
+    font-size: 15px;
+}
+.newButtonBindDiv input {
+    width: 180px;
+    position: relative;
+}
+.bindDivs {
+    height: 250px;
+    overflow-y: scroll;
+    border: solid black 1px;
+}
+*:focus {
+    /*box-shadow: 0px 0px 5px turquoise;*/
+}
+.paramDiv {
+    padding: 5px;
+    border: solid black 1px;
+}
+.paramCheckbox {
+    display: inline-block;
+    width: 20px;
 }
